@@ -1,0 +1,214 @@
+
+/*------- Свойства CSS для главной таблицы + для главного портрета юнита -------*/
+#unit_MainPortrait {
+    border-collapse: collapse;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid #2dbcfa;
+    border-radius: 80%;
+
+    color: black;
+
+    margin: 0px 20px 10px 10px;
+}
+
+
+#Main_body_Information article {
+    /*border: 1px solid red;*/
+    margin: 0px 0px 10px 10px;
+}
+
+#Main_body_Information article h1 {
+    color: #2dbcfa;
+    font-size: large;
+}
+
+#unit_MainPortrait th {
+    border: 1px solid black;
+}
+
+#unit_MainPortrait td {
+    border: 1px solid black;
+}
+
+#Table_color_1 {
+    background-color: #EDF0F0;
+}
+
+.column_1 {
+    text-align: right;
+}
+
+#Table_color_2 {
+    background-color: #CBD4D4;
+    text-align: center;
+}
+
+.column_2 {
+    text-align: left;
+}
+
+#Img_Test {
+    width: 1000x;
+    height: 500px;
+    display: block;
+}
+
+#image_armor_t {
+    width: 22px;
+}
+/*------------------------------------------------------------*/
+
+
+
+
+
+
+/*------- Таблица с вооружением юнита armament -------*/
+#unit_armament {
+    border-collapse: collapse;
+    text-align: center;
+
+    width: 50%;
+
+    color: black;
+}
+
+#unit_armament th {
+    border: 1px solid black;
+}
+
+#unit_armament td {
+    border: 1px solid black;
+}
+
+#image_armament {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/*-----------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*---------- Таблица способностей юнита ---------*/
+#unit_ability {
+    border-collapse: collapse;
+    text-align: left;
+
+    width: 50%;
+
+    color: black;
+}
+
+#unit_ability th {
+    border: 1px solid black;
+}
+
+#unit_ability td {
+    border: 1px solid black;
+}
+
+#image_ability {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/*-----------------------------------------------*/
+
+
+
+
+
+
+/*-----------------------------------------------*/
+/*-------------------Улучшения-------------------*/
+/*-----------------------------------------------*/
+
+/*------- Таблица вооружения -------*/
+#table_armor {
+    border-collapse: collapse;
+    color: black;
+}
+
+#table_armor th {
+    border: 1px solid black;
+}
+
+#table_armor td {
+    border: 1px solid black;
+}
+/*----------------------------------*/
+
+/*------- Таблица брони -------*/
+#table_weapon {
+    border-collapse: collapse;
+    color: black;
+}
+
+#table_weapon th {
+    border: 1px solid black;
+}
+
+#table_weapon td {
+    border: 1px solid black;
+}
+/*-----------------------------*/
+
+/*------- Таблица щитов -------*/
+#table_shields {
+    border-collapse: collapse;
+    color: black;
+}
+
+#table_shields th {
+    border: 1px solid black;
+}
+
+#table_shields td {
+    border: 1px solid black;
+}
+/*-----------------------------*/
+
+/*------- 3 таблицы на одном уровне -------*/
+.horizontal_line {
+    display: inline-block;
+    padding-left: 32px;
+    padding-bottom: 10px;
+    /*border: 1px solid red;*/
+}
+/*-----------------------------------------*/
+
+
+
+
+/*------- Общие свойства на все элементы (картинки улучшений) в таблице -------*/
+.image_size {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.color_head_tables {
+    background-color: #2dbcfa;
+}
+/*--------------------------------------------------------*/
+
+
+/*------- Нижняя таблица способностей юнита после грейдов-------*/
+/*--------------------------------------------------------------*/
+#table_upgrade_ability {
+    border-collapse: collapse;
+    color: black;
+
+    width: 65%;
+}
+
+#table_upgrade_ability td {
+    border: 1px solid black;
+}
+/*--------------------------------------------------------------*/
