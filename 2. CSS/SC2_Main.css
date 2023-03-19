@@ -1,0 +1,161 @@
+
+body {
+    background-color: purple;
+    color:white;
+}
+
+/*------- Навигация сайта -------*/
+
+#Header_Navigation {
+    width: 1445px;
+    background-color: black;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    color:white;
+}
+
+#Header_Navigation ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+#Header_Navigation ul li{
+    display: inline;
+}
+
+/*------- Дизайн левого блока навигации -------*/
+#Left_Navigation {
+    display: table-cell;
+
+    background-color: black;
+    width: 240px;
+}
+
+.Block_Navigation {
+    width: 240px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid purple;
+    
+}
+
+.Block_Title_Navigation {
+    width: 240px;
+    background-color: rgb(0, 68, 255);
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Tables_in_Navigation {
+    margin: 0;
+    width: 240px;
+    border-collapse: collapse;
+}
+
+.Header_tables_Navigations {
+    background-color: #bdacac;
+}
+
+#Left_Navigation td {
+    border: 1px solid white;
+    background-color: lightgrey;
+}
+
+/*--------------------------*/
+/*--------------------------*/
+
+
+
+/*------- Основной контент -------*/
+#Table_Container {
+    display: table;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#Table_Row {
+    display: table-row;
+}
+
+#Main_Information {
+    display: table-cell;
+    background-color: black;
+}
+
+#Main_body_Information {
+    width: 1150px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+
+/*----------------------------------*/
+
+
+
+/*------- Работа с таблицами в левом блоке (навигации) -------*/
+#table {
+    border-collapse: collapse;
+    text-align: left;
+    margin: 0px 20px 0px 20px;
+
+    color: white;
+    width: 840px;
+}
+
+th {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/*------- Свойства таблицы в основном контенте -------*/
+#Table_Army_Entire {
+    width: 750px;
+}
+
+/*------------------------------------*/
+
+/*-------Стилистика оглавлений -------*/
+
+header {
+    font-size: 18px;
+}
+
+#protoss_header {
+    color:#2dbcfa;
+}
+
+#protoss_header h1 {
+    border-bottom: 1px solid #2dbcfa;
+}
+
+#terran_header {
+    color:#07d90e;
+}
+
+#terran_header h1 {
+    border-bottom: 1px solid #07d90e;
+}
+
+#zerg_header {
+    color:#de9709;
+}
+
+#zerg_header h1 {
+    border-bottom:1px solid #de9709;
+}
+/*------------------------------------*/
+
+
+
+/*--------Свойства CSS для юнитов --------*/
